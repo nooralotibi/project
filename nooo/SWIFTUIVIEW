@@ -1,0 +1,21 @@
+//
+//  ShowSheet.swift
+//  nooo
+//
+//  Created by noor alotibi on 12/05/1444 AH.
+//
+
+import SwiftUI
+
+struct ShowSheet: View {
+    var body: some View {
+        Text("State & binding are great!")
+            .toolbarItems(Placement: )
+    }
+}
+
+struct ShowSheet_Previews: PreviewProvider {
+    static var previews: some View {
+        ShowSheet()
+    }
+}
